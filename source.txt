@@ -44,7 +44,10 @@ int main() {
 				ot = v(&l);
 				
 			}
-		
+			if (c == 'o' && ot != NULL)
+			{
+				o(ot);
+			}
 
 		}
 	return 0;
